@@ -1,0 +1,112 @@
+body {
+    background-color: gray;
+  }
+  /*-----------------------------------*/
+  .more{
+    display: flex;
+    flex-direction: row;
+  }
+  .icons {
+    display: flex;
+    gap: 5px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #FFF3E2;
+    padding: 5px;
+    border-radius: 20px;
+    width: 60px;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+  }
+  .icons2 {
+    display: flex;
+    gap: 5px;
+    flex-direction: row;
+    background-color: #FFF3E2;
+    padding: 5px;
+    border-radius: 20px;
+    width: 120px;
+    height: 25px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+  }
+  .twitter,
+  .whatsapp,
+  .youtube,
+  .instagram {
+    display: inline-flex;
+    padding: 5px;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    outline: 1px solid #D3756B;
+    transition-duration: 0.25s;
+  }
+  
+  .twitter:hover {
+    animation: shake 0.5s;
+    background-color: #A10F18;
+    outline: 1px solid #A10F18;
+    outline-offset: 2px;
+  }
+  
+  .whatsapp:hover {
+    animation: shake 0.5s;
+    background-color: #A10F18;
+    outline: 1px solid #A10F18;
+    outline-offset: 2px;
+  }
+  .youtube:hover {
+    animation: shake 0.5s;
+    background-color: #A10F18;
+    outline: 1px solid #A10F18;
+    outline-offset: 2px;
+  }
+  .instagram:hover {
+    animation: shake 0.5s;
+    background-color: #A10F18;
+    outline: 1px solid #A10F18;
+    outline-offset: 2px;
+  }
+  .twitter:hover path,
+  .instagram:hover path,
+  .whatsapp:hover path,
+  .youtube:hover path
+  {
+    fill:#FFF3E2;
+  }
+  @keyframes shake {
+    10% {
+      transform: rotate(15deg);
+    }
+    20% {
+      transform: rotate(-15deg);
+    }
+    30% {
+      transform: rotate(0deg);
+    }
+    40% {
+      transform: rotate(20deg);
+    }
+    50% {
+      transform: rotate(-20deg);
+    }
+    60% {
+      transform: rotate(0deg);
+    }
+    70% {
+      transform: rotate(10deg);
+    }
+    80% {
+      transform: rotate(-10deg);
+    }
+    90% {
+      transform: rotate(5deg);
+    }
+    100% {
+      transform: rotate(-5deg);
+    }
+  }  
